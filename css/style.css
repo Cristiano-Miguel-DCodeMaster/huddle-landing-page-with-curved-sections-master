@@ -1057,7 +1057,7 @@ section {
 	}
 	.footer{
 		margin-top: -22%;
-		height: 20vh;
+		height: 25vh;
 	}
 	footer{
 		flex-direction: row;
@@ -1126,5 +1126,231 @@ section {
 	}
 	footer .right .right1 .letter button{
 		font-size: 18px;
+	}
+}
+@media only screen and (min-width:1272px){
+	.sec1 p {
+		width: 40%;
+		font-size: 16px;
+	}
+	.sec3 .left p{
+		font-size: 18px;
+	}
+	.sec4 h5{
+		font-size: 35px;
+		padding-bottom: 10px;
+		margin-left: -8%;
+	}
+	.sec4 p{
+		font-size: 18px;
+		text-align: left;
+		margin-left: 15%;
+	}
+	.sec5 p {
+		font-size: 18px;
+		width: 85%;
+	}
+	.sec6 p{
+		font-size: 30px;
+	}
+	.sec6 a{
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 20%;
+	}
+}
+@media only screen and (min-width:1600px){
+	.sec1 h1 {
+		font-size: 40px;
+	}
+	.sec1 p {
+		width: 42%;
+		font-size: 22px;
+	}
+	.sec1 a {
+		font-size: 22px;
+	}
+	.sec1 img{
+		width: 40%;
+	}
+	.sec3 .left h4{
+		font-size: 45px;
+	}
+	.sec3 .left p{
+		font-size: 26px;
+	}
+	.sec3 img{
+		width: 70%;
+	}
+	.sec3 p,.sec4 p,.sec5 p {
+		width: 85%;
+		margin-left: 10%;
+	}
+	.sec4 h5{
+		font-size: 45px;
+	}
+	.sec4 p{
+		font-size: 22px;
+		width: 80%;
+	}
+	.sec5 h6{
+		font-size: 45px;
+	}
+	.sec5 p {
+		font-size: 24px;
+		width: 75%;
+	}
+	footer .left{
+		padding-left: 5%;
+	}
+	footer .left .left1 .lorem{
+		font-size: 20px;
+	}
+    footer .left1 .phone,footer .left1 .email {
+		gap: 20px;
+    }
+    footer .left1 .phone p,footer .left1 .email p{
+        font-size: 20px;
+    }
+    footer .left2 svg{
+        width: 8%;
+    }
+    footer .left,footer .right{
+        width: 90%;
+    }
+	footer .right{
+		margin-top: -8%;
+		padding-right: 12%;
+	}
+    footer .right .right1 .title{
+        font-size: 35px;
+    }
+    footer .right .right1 .Newsp{
+        font-size: 24px;
+    }
+	footer .right .right1 .letter input{
+		padding: 15px;
+		font-size: 24px;
+	}
+	footer .right .right1 .letter p{
+		font-size: 26px;
+		left: 49%;
+		margin-top: 5%;
+	}
+	footer .right .right1 .letter button{
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width:2560px){
+	header .logo{
+		width: 20%;
+		margin-left: 5%;
+	}
+	header .try{
+		width: 20%;
+		font-size: 38px;
+		margin-left: -15%;
+	}
+	.sec1 h1 {
+		font-size: 50px;
+	}
+	.sec1 p {
+		width: 35%;
+		font-size: 30px;
+	}
+	.sec1 a {
+		font-size: 30px;
+	}
+	.sec1 img{
+		width: 30%;
+		padding-top: 8%;
+	}
+	.sec2 .left h2,
+	.sec2 .right h3 {
+		font-size: 150px;
+	}
+	.sec2 .left p,
+	.sec2 .right p {
+		font-size: 40px;
+	}
+	.sec2 .right p {
+		text-align: center;
+	}
+	.sec2 .right .messages{
+		gap: 20px;
+	}
+	.sec3 .left h4{
+		font-size: 65px;
+	}
+	.sec3 .left p{
+		font-size: 36px;
+		width: 60%;
+	}	
+	.sec3 img{
+		width: 100%;
+		margin-left: -35%;
+	}
+	.sec3 p,.sec4 p,.sec5 p {
+		width: 85%;
+		margin-left: 10%;
+	}
+	.sec4 h5{
+		font-size: 65px;
+		margin-left: -24%;
+	}
+	.sec4 p{
+		font-size: 36px;
+		width: 80%;
+	}
+	.sec5 h6{
+		font-size: 65px;
+		margin-left: 10%;
+	}
+	.sec5 .right img{
+		width: 130%;
+		margin-left: -35%;
+	}
+	.sec5 p {
+		font-size: 36px;
+		width: 65%;
+	}
+	.sec6 p{
+		font-size: 65px;
+	}
+	.sec6 a{
+		font-size: 40px;
+		padding: 20px;
+	}
+	footer .left .left1 .lorem{
+		font-size: 30px;
+	}
+    footer .left1 .phone p,footer .left1 .email p{
+        font-size: 30px;
+    }
+    footer .left,footer .right{
+        width: 90%;
+    }
+	footer .right{
+		margin-top: -8%;
+		padding-right: 12%;
+	}
+    footer .right .right1 .title{
+        font-size: 45px;
+    }
+    footer .right .right1 .Newsp{
+        font-size: 34px;
+    }
+	footer .right .right1 .letter input{
+		padding: 25px;
+		font-size: 35px;
+	}
+	footer .right .right1 .letter p{
+		font-size: 36px;
+		left: 48%;
+		margin-top: 5%;
+	}
+	footer .right .right1 .letter button{
+		font-size: 34px;
 	}
 }
